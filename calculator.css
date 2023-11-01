@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.calculator{
+    background-color:tan;
+    width: 24%;
+    height: 60%;
+    margin: 5px auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 9px;
+    padding-top: 10px;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.input{
+    width: 97%;
+    height: 10%;
+}
+.input input{
+   width: 100%;
+   height: 100%;
+    background-color: tan;
+    border: none;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.output{
+    width: 99%;
+    height: 10%;
+}
+
+.output input{
+    width: 100%;
+    height: 100%;
+    background-color:lightgreen;
+    border: none;
+    border-radius: 5px;
+    margin-top: 4px;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 20px;
+
+
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 80%;
+    width: 100%;
+    margin-top: 10px;
+}
+.buttons div{
+    width: 60px;
+    height: 69px;
+    
+}
+button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow:2px 2px 2px gray;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+#C{
+    background-color: tomato;
+}
+.op{
+    background-image: linear-gradient(45deg, rgba(68, 19, 160, 0.918),rgba(55, 77, 121, 0.555));
+    ;
+}
+#sum{
+    background-color: skyblue;
+}
+
+
+.calculator2{
+    background-color: black;
+    margin: 5px auto;
+    width: 24%;
+    height: 50%;
+}
