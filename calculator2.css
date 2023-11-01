@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.calculator2{
+    background-color: black;
+    height: 67%;
+    width:31%;
+    margin: 5px auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.numbers{
+    width: 92%;
+    height: 30%;
+}
+.input2{
+    height: 50%;
+    width: 100%;
+}
+.output2{
+    height: 50%;
+    width: 100%;
+
+}
+.input2 input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: tan;
+    text-align: right;
+    font-size: 50px;
+    outline: none;
+
+}
+.output2 input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: tan;
+    text-align: right;
+    font-size: 28px;
+    outline: none;  
+}
+.calculator2 input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.button-box{
+    width: 75%;
+    height: 70%;
+    display: flex;
+    
+}
+
+.leftside{
+    width: 9%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-right: px;
+
+}
+.button-box .leftside{
+    border-radius: 30px;
+    border: none;
+    background-color:rgb(20, 18, 18);
+    width: 70%;
+    height: 85%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.leftside button{
+    width: 95%;
+    height: 95%;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.buttons2{
+    width: 75%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+  
+}
+.buttons2 div{
+    width: 55px;
+    height: 55px;
+    background-color:black;
+    border-radius: 30px;
+    border: none;
+    margin:5px;
+    
+
+}
+/* .buttons2 button{
+    height: 100%;
+    width: 100%;
+    border-radius:50%;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    
+} */
+.buttons2 button{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(20, 18, 18);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    
+}
+.plusminus button{
+    background-color: rgba(196, 41, 67, 0.918);
+}
+.op button{
+    background-color: grey;
+}
+.equal button{
+    background-color: rgb(107, 52, 180);
+}
